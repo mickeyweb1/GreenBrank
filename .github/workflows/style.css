@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Funnel+Display:wght@300..800&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Michroma&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+*{  
+    transition: all .3s ease-in-out;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+      font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    margin: 0;
+    padding: 5px;
+}
+
+
+.section1{
+    border-radius: 50px;
+    width: 100%;
+     height: 130vh; 
+     background: linear-gradient(white, white, #56F09F ) ;
+     display: flex;  
+     flex-direction: column; 
+         padding: 0 20px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color:; */
+    height: 40px;
+    padding: 0 20px;
+}
+
+.hamburger{
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+    color: white;
+}
+
+.title{
+    display: block ;
+    margin-right: auto;
+    color: #004737;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.App_logo{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+
+.menu ,a{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    list-style: none;
+    color: #004737;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+
+}
+
+a:hover{
+    border-bottom: 2px solid #004737;
+}
+
+.Buy-template{
+    background-color: rgb(0, 255, 0);
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* section */
+
+.section2{
+    background-color: #ffffff;
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section2-topic{
+    color: #004737;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: .7em;
+}
+
+.section2-topic > span{
+    color: #56F09F;
+    display: inline;
+}
+
+.section2-offer-info{
+    color: #004737;
+    font-size: 20px;
+    margin-bottom: 2.5em;
+}
+
+.section2-offer1{
+    background-color: #FBF8E9;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 6em;
+    border-radius: 13px;
+}
+
+.offer1-topic{
+    text-align: start;
+    padding: 1em 2em;
+    color: #004737;
+}
+
+.offer1-topic > h2{
+    font-size: 1.7em;
+}
+
+.section2-offer1-img{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.section2-offer1-img > img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+} 
